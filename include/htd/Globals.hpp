@@ -39,6 +39,7 @@ namespace htd
      *  Datatype for indices.
      */
     typedef std::size_t index_t;
+    static int ordering_id=1;
 }
 
 #endif /* HTD_HTD_GLOBALS_HPP */

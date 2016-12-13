@@ -914,6 +914,7 @@ int main(int argc, const char * const * const argv)
             }
             else if (outputFormat == "width")
             {
+                std::cout << "{" << std::endl;
                 exporter = new htd_main::WidthExporter();
             }
             else

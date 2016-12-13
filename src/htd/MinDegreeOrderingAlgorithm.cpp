@@ -265,6 +265,7 @@ htd::MinDegreeOrderingAlgorithm::~MinDegreeOrderingAlgorithm()
 
 htd::VertexOrdering * htd::MinDegreeOrderingAlgorithm::computeOrdering(const htd::IMultiHypergraph & graph) const HTD_NOEXCEPT
 {
+    std::cout << "BBBOOOOOOO" << std::endl;
     return computeOrdering(graph, (std::size_t)-1, 1);
 }
 
